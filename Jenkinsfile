@@ -27,7 +27,7 @@ pipeline{
                 script{
                     docker.withRegistry('', registryCredential) {
                         dockerImage.push()
-                        dockerImage("latest")
+                        dockerImage.push("latest")
                     }
                     echo "trying to push Docker Build to DockerHub"    
                 }
