@@ -1,7 +1,7 @@
 pipeline{
     environment{
         registry = "ellande/helloworld"
-        registryCredential = 'dckr_pat_Lgl0hLG1-nFZ9qku-EHzG9DuGJM'
+        registryCredential = 'dockerhub'
         dockerImage = ''
     }
     
