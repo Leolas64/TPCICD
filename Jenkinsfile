@@ -1,5 +1,5 @@
 pipeline{
-    environnement{
+    environment{
         registry = "ellande/TPCICD"
         registryCredential = 'dckr_pat_Lgl0hLG1-nFZ9qku-EHzG9DuGJM'
         dockerImage = ''
